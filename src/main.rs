@@ -6,7 +6,7 @@ mod os;
 
 // Import a bunch of commonly-used UEFI symbols exported by the crate
 use uefi::prelude::*;
-use core::fmt::Write; // <-- Import this trait
+use core::fmt::Write;
 
 // Tell the uefi crate that this function will be our program entry-point
 #[entry]
